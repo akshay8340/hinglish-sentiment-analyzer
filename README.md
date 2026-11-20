@@ -7,7 +7,7 @@ highlights which words pushed the prediction in each direction.
 It compares a classical baseline (TF-IDF + Logistic Regression) with a fine-tuned transformer (MiniLM) on the
 SemEval-2020 Task 9 (SentiMix) Hindi-English benchmark, and ships as a small Streamlit web app.
 
-<!-- DEMO_LINK: after deploying, add a line here such as: **Live demo:** https://your-app.streamlit.app -->
+**Live demo: <https://hinglish-sentiment-analyzer83.streamlit.app/>** (the first request after a period of inactivity can take a minute while the app wakes up and loads the model)
 
 ![App screenshot](assets/app_result.jpg)
 
