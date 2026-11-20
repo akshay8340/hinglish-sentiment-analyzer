@@ -48,7 +48,7 @@ Evaluated on the official SentiMix splits (3 classes, 3,000 development tweets a
 Python 3.11 or newer is required.
 
 ```bash
-git clone https://github.com/<your-username>/hinglish-sentiment-analyzer.git
+git clone https://github.com/akshay8340/hinglish-sentiment-analyzer.git
 cd hinglish-sentiment-analyzer
 python -m venv .venv
 # Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
