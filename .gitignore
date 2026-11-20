@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+*.zip
+
+# Dataset files are downloaded with `python scripts/download_data.py` and are not redistributed here.
+data/*
+!data/README.md
+!data/.gitkeep

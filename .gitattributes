@@ -1,0 +1,6 @@
+* text=auto
+*.bat text eol=crlf
+*.safetensors binary
+*.joblib binary
+*.png binary
+*.jpg binary

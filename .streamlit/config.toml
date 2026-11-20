@@ -1,0 +1,6 @@
+[server]
+# Streamlit's file watcher inspects every imported module, which makes the app hang when PyTorch is imported.
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false

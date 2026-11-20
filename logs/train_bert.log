@@ -1,0 +1,99 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights:  12%|█▏        | 12/103 [00:00<00:02, 35.01it/s]Loading weights:  20%|██        | 21/103 [00:00<00:01, 43.70it/s]Loading weights:  25%|██▌       | 26/103 [00:00<00:02, 34.79it/s]Loading weights:  39%|███▉      | 40/103 [00:01<00:02, 29.26it/s]Loading weights: 100%|██████████| 103/103 [00:01<00:00, 78.79it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: anuragwagh0/hinglish-minilm
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+epoch 1 step 20/1314 loss 1.103 elapsed 1.7m eta 112.2m
+epoch 1 step 40/1314 loss 1.081 elapsed 2.7m eta 86.5m
+epoch 1 step 60/1314 loss 1.029 elapsed 3.7m eta 76.9m
+epoch 1 step 80/1314 loss 1.003 elapsed 4.7m eta 71.9m
+epoch 1 step 100/1314 loss 0.836 elapsed 5.6m eta 67.7m
+epoch 1 step 120/1314 loss 1.124 elapsed 6.5m eta 64.6m
+epoch 1 step 140/1314 loss 0.977 elapsed 7.5m eta 62.9m
+epoch 1 step 160/1314 loss 0.856 elapsed 8.5m eta 61.5m
+epoch 1 step 180/1314 loss 0.982 elapsed 9.7m eta 60.9m
+epoch 1 step 200/1314 loss 0.860 elapsed 11.0m eta 61.4m
+epoch 1 step 220/1314 loss 0.860 elapsed 12.4m eta 61.6m
+epoch 1 step 240/1314 loss 0.787 elapsed 13.8m eta 61.9m
+epoch 1 step 260/1314 loss 0.729 elapsed 15.3m eta 61.9m
+epoch 1 step 280/1314 loss 0.800 elapsed 16.6m eta 61.4m
+epoch 1 step 300/1314 loss 0.919 elapsed 18.1m eta 61.1m
+epoch 1 step 320/1314 loss 1.013 elapsed 19.6m eta 60.8m
+epoch 1 step 340/1314 loss 0.652 elapsed 20.7m eta 59.4m
+epoch 1 step 360/1314 loss 0.789 elapsed 22.0m eta 58.2m
+epoch 1 step 380/1314 loss 0.834 elapsed 23.3m eta 57.2m
+epoch 1 step 400/1314 loss 0.641 elapsed 24.5m eta 55.9m
+epoch 1 step 420/1314 loss 0.732 elapsed 25.8m eta 54.8m
+== epoch 1: dev accuracy 0.6197  macro-F1 0.6235
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.07s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.07s/it]
+              precision    recall  f1-score   support
+
+    negative      0.597     0.690     0.640       890
+     neutral      0.558     0.517     0.537      1128
+    positive      0.715     0.674     0.694       982
+
+    accuracy                          0.620      3000
+   macro avg      0.623     0.627     0.623      3000
+weighted avg      0.621     0.620     0.619      3000
+
+epoch 2 step 440/1314 loss 0.840 elapsed 28.3m eta 56.3m
+epoch 2 step 460/1314 loss 0.695 elapsed 29.5m eta 54.7m
+epoch 2 step 480/1314 loss 0.634 elapsed 30.7m eta 53.3m
+epoch 2 step 500/1314 loss 0.797 elapsed 31.8m eta 51.8m
+epoch 2 step 520/1314 loss 0.587 elapsed 33.8m eta 51.7m
+epoch 2 step 540/1314 loss 0.910 elapsed 35.1m eta 50.4m
+epoch 2 step 560/1314 loss 0.623 elapsed 36.3m eta 48.8m
+epoch 2 step 580/1314 loss 0.670 elapsed 37.6m eta 47.6m
+epoch 2 step 600/1314 loss 0.829 elapsed 39.0m eta 46.4m
+epoch 2 step 620/1314 loss 0.799 elapsed 40.3m eta 45.1m
+epoch 2 step 640/1314 loss 0.759 elapsed 41.6m eta 43.8m
+epoch 2 step 660/1314 loss 0.786 elapsed 42.8m eta 42.4m
+epoch 2 step 680/1314 loss 0.863 elapsed 44.0m eta 41.1m
+epoch 2 step 700/1314 loss 0.908 elapsed 45.4m eta 39.8m
+epoch 2 step 720/1314 loss 0.754 elapsed 46.6m eta 38.5m
+epoch 2 step 740/1314 loss 0.649 elapsed 47.8m eta 37.1m
+epoch 2 step 760/1314 loss 1.128 elapsed 49.0m eta 35.7m
+epoch 2 step 780/1314 loss 0.760 elapsed 50.2m eta 34.4m
+epoch 2 step 800/1314 loss 0.757 elapsed 51.2m eta 32.9m
+epoch 2 step 820/1314 loss 0.822 elapsed 52.2m eta 31.4m
+epoch 2 step 840/1314 loss 0.835 elapsed 53.2m eta 30.0m
+epoch 2 step 860/1314 loss 1.061 elapsed 54.2m eta 28.6m
+== epoch 2: dev accuracy 0.6153  macro-F1 0.6167
+epoch 3 step 880/1314 loss 0.629 elapsed 56.2m eta 27.7m
+epoch 3 step 900/1314 loss 0.548 elapsed 57.2m eta 26.3m
+epoch 3 step 920/1314 loss 0.614 elapsed 58.2m eta 24.9m
+epoch 3 step 940/1314 loss 0.665 elapsed 59.2m eta 23.6m
+epoch 3 step 960/1314 loss 0.600 elapsed 60.1m eta 22.2m
+epoch 3 step 980/1314 loss 0.687 elapsed 61.1m eta 20.8m
+epoch 3 step 1000/1314 loss 0.616 elapsed 62.1m eta 19.5m
+epoch 3 step 1020/1314 loss 0.730 elapsed 63.0m eta 18.2m
+epoch 3 step 1040/1314 loss 0.755 elapsed 63.9m eta 16.8m
+epoch 3 step 1060/1314 loss 0.727 elapsed 64.9m eta 15.5m
+epoch 3 step 1080/1314 loss 0.968 elapsed 65.8m eta 14.2m
+epoch 3 step 1100/1314 loss 0.621 elapsed 66.7m eta 13.0m
+epoch 3 step 1120/1314 loss 0.859 elapsed 67.6m eta 11.7m
+epoch 3 step 1140/1314 loss 0.721 elapsed 68.7m eta 10.5m
+epoch 3 step 1160/1314 loss 0.694 elapsed 69.6m eta 9.2m
+epoch 3 step 1180/1314 loss 0.600 elapsed 70.6m eta 8.0m
+epoch 3 step 1200/1314 loss 0.721 elapsed 71.6m eta 6.8m
+epoch 3 step 1220/1314 loss 0.531 elapsed 72.5m eta 5.6m
+epoch 3 step 1240/1314 loss 0.607 elapsed 73.4m eta 4.4m
+epoch 3 step 1260/1314 loss 0.550 elapsed 74.3m eta 3.2m
+epoch 3 step 1280/1314 loss 0.791 elapsed 75.3m eta 2.0m
+epoch 3 step 1300/1314 loss 0.937 elapsed 76.2m eta 0.8m
+== epoch 3: dev accuracy 0.6217  macro-F1 0.6247
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+              precision    recall  f1-score   support
+
+    negative      0.605     0.713     0.655       890
+     neutral      0.566     0.504     0.533      1128
+    positive      0.700     0.674     0.687       982
+
+    accuracy                          0.622      3000
+   macro avg      0.623     0.630     0.625      3000
+weighted avg      0.621     0.622     0.619      3000
+

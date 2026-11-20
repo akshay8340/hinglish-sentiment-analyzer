@@ -1,0 +1,6 @@
+{
+  "accuracy": 0.6216666666666667,
+  "macro_f1": 0.6247313958656252,
+  "epoch": 3,
+  "model": "anuragwagh0/hinglish-minilm"
+}
